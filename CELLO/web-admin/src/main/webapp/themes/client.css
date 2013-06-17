@@ -1,0 +1,211 @@
+body{
+	margin:0;
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 11px;
+	color:#555;
+	
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+div, ul, ol, li, table, td, span{margin:0;padding:0} 
+.dashboard{
+	background:#ffffff url(images/loginbg.jpg) no-repeat 100% 0%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.topMenu{
+	position: fixed;
+	left: 50px;
+	top: 0;
+	z-index: 1000;
+}
+.codeCarrier{height:30px;line-height: 30px;font-weight: bold;font-size: 16px;padding:0 5px;color: #d0402f}
+.graybar{    
+	background: url("images/dash-bg.jpg") repeat-x scroll 0% -25px #fff;
+}
+.logo-app{float:left;background:url("images/normal-logo.png") no-repeat scroll 75% 10px transparent; width:120px;height:65px;}
+.bar-app{margin-left:125px;text-align: right;padding:10px 20px}
+.body-con{margin-top:0px;}
+
+.body-con.ui-widget-content{
+	border:0px;
+	border-radius:0px;
+	background: transparent! important;
+}
+#divMainPageTitileBar .ui-widget-header{
+	background: transparent;
+	border:0px;
+}
+#divMainPageTitileBar .ui-state-default,  #divMainPageTitileBar .ui-widget-header .ui-state-default{
+	background: none;
+	border:0px;
+	height:35px;
+}
+
+#divMainPageTitileBar .ui-state-default img.closeBtnGlobal,  #divMainPageTitileBar .ui-widget-header .ui-state-default img.closeBtnGlobal{
+	display: none;
+}
+#divMainPageTitileBar .ui-state-default img.closeBtnGlobal,  #divMainPageTitileBar .ui-widget-header .ui-state-default img.closeBtnGlobal{
+	display: none;
+}
+#divMainPageTitileBar .ui-state-active, #divMainPageTitileBar .ui-widget-header .ui-state-active{
+	background: url("images/sel-tab.png") no-repeat scroll 50% 100% transparent;
+	border:0px
+}
+#divMainPageTitileBar .ui-state-focus img.closeBtnGlobal, #divMainPageTitileBar .ui-widget-header .ui-state-hover img.closeBtnGlobal{
+	display: inline;
+}
+#divMainPageTitileBar .ui-state-active img.closeBtnGlobal, #divMainPageTitileBar .ui-widget-header .ui-state-active img.closeBtnGlobal{
+	display: inline;
+	cursor: pointer;
+}
+.ui-tabs .ui-tabs-nav li a{outline:none}
+
+
+.rowGap {
+	height: 5px;
+}
+.topBar{
+	background:#2d2d2d url(images/top-bar-corner.png) no-repeat -3% 1px;
+	height:30px;
+}
+input{
+	background:white;
+	border:1px solid #aaa;
+	width:75%;
+	padding:2px 5px;
+}
+input.isa-button{
+	background:#555555;
+	border:1px solid #aaa;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #BBB;
+	padding: 3px 15px;
+	color:white;
+	width:auto;
+}
+.progressBar {
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:200;
+	top:0px;
+	left:0px;
+	border-collapse:collapse;
+	border-spacing: 0;
+}
+.progressBar img{display:block}
+.progressBar .mask{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:1;
+	top:0px;
+	background: #000;
+	opacity:0.1;
+	border-collapse:collapse;
+	border-spacing: 0;
+}
+.footer{
+	position:fixed;bottom:0px;left:0px;
+	border-top:1px solid #e4e4e4;
+	background: #fff;width:98%;
+	height:25px;line-height: 25px;
+	padding:0 1%;text-align: right;
+}
+.footer label{color:#999}
+
+#divMainPageContent.ui-tabs .ui-tabs-panel{
+	padding: 1em 0em;
+}
+.isaInput{
+	border:1px solid #e4e4e4;
+	background: #fff;
+	color:#333;
+}
+/*jqGrid*/
+.ui-pg-input{width:15px;}
+.ui-jqgrid .ui-jqgrid-pager .ui-pg-div{padding-right:8px;line-height:18px;}
+.ui-jqgrid-view .ui-state-highlight{ background: #ffe39e;border: 1px solid #aaaaaa;}
+/*jqGrid*/
+/*supperfish overwrite */
+.sf-menu li {
+	background: transparent;
+}
+.sf-menu a {
+	border:0px;
+	color:#e4e4e4;
+}
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+	background: #fff;
+}
+.sf-menu li:hover a,
+.sf-menu li.sfHover a{
+	color: #2d2d2d;
+}
+.sf-menu ul li, .sf-menu ul ul li {
+	background: #fff;
+}
+.sf-menu ul li a,
+.sf-menu ul ul li a {
+	color: #2d2d2d;
+}
+.sf-menu ul li:hover,
+.sf-menu ul li.sfHover {
+	background: #2d2d2d;
+}
+.sf-menu ul li:hover a,
+.sf-menu ul li.sfHover a{
+	color: #e4e4e4;
+}
+
+/*supperfish overwrite */
+.basic-panel{width:97%;margin:0 auto;box-shadow: 0px 0px 7px #aaa;margin-bottom:5px;}
+.basicPanel{padding:10px;background:#fff}
+.basicPanel>table,.basicPanel>div{width:97%}
+.basic-panel-title{
+	height:22px;
+	padding-left:5px;
+	line-height:22px;
+	border:0px;
+	border-bottom:1px solid #aaa;;
+}
+.basic-panel-title>.ui-icon{
+	float: right;
+	position:relative;
+	top:1px;
+	right:5px;
+	cursor: pointer;
+}
+.buttonPanel{
+	width:97%;margin:0 auto;margin-bottom:5px;
+}
+.mandatory{
+	color:red;
+	font-weight: bold;
+	padding-left:3px;
+}
+.client-logo{float:right;margin-right:15px;}
+.errormsg{color:red;display:none}
+/*treeView overwrite*/
+#treePermission input{display:inline;width:14px;}
+/*treeView overwrite*/
+
+/*custome button disable */
+button:disabled 
+{
+	border: 1px solid #d3d3d3 !important;
+	background: #e6e6e6 url(/images/ui-bg_diagonals-medium_75_e6e6e6_40x40.png) 50% 50% repeat !important;
+	font-weight: normal !important;
+	color: #555555 !important;
+}
+

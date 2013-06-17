@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="x-ua-compatible" content="IE=8" />
+<meta http-equiv='pragma' content='no-cache' />
+<meta http-equiv='cache-control' content='no-cache' />
+<meta http-equiv="expires" content="-1" />
+<title>MaxAero</title>
+<link href="css/non-themed.css" rel="stylesheet" type="text/css" />
+<link href="../../../themes/default/css/dcs.all.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+	function createCookie(name, value, days) {
+		if (days) {
+			var date = new Date();
+			date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+			var expires = "; expires=" + date.toGMTString();
+		} else
+			var expires = "";
+		document.cookie = name + "=" + value + expires + "; path=/";
+	}
+
+	function readCookie(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for ( var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ')
+				c = c.substring(1, c.length);
+			if (c.indexOf(nameEQ) == 0)
+				return c.substring(nameEQ.length, c.length);
+		}
+		return null;
+	}
+
+	function eraseCookie(name) {
+		createCookie(name, "", -1);
+	}
+
+	function clearCookies() {
+		var cookies = document.cookie.split(";");
+		for ( var i = 0; i < cookies.length; i++) {
+			eraseCookie(cookies[i].split("=")[0]);
+		}
+		setTimeout("window.location.reload()", 5000);
+	}
+</script>
+</head>
+
+
+
+<body onload="clearCookies();">
+	<div id="divInnerPageOuter">
+		<div id="divMainPageTitileBar">
+			<div id="divMainPageMenuBar">&nbsp;</div>
+		</div>
+		<div style="position: relative; top: 50px" class="divInnerPageOuter">
+			<div>
+				<img alt='Access denied' src="../../../themes/default/images/dcs/Error_Icon.gif" align="top" /> <label
+					style='font-size: 30px; font-family: Arial, Helvetica, sans-serif; margin-left: 10px'> Error: Access denied.</label> <br />
+				<div style="margin: 10 0px; padding: 5px 50px;">
+					<label style='font-size: 12px;'>Logout within 5 seconeds</label>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

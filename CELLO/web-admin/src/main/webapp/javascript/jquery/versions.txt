@@ -1,0 +1,14 @@
+LCC Renamed					Actual Name							Release		URL
+
+jquery.js					jquery-1.9.1.min.js					1.9.1		
+jquery.ui.js				jquery-ui-1.10.0.custom.min.js		1.10.0 
+jquery.jqGrid.min.js		jquery.jqGrid.min.js				4.4.4
+jquery.combo.js				jquery.sexy-combo-2.1.0.min.js		2.1.0		http://plugins.jquery.com/project/SexyCombo
+combo.css					sexy-combo.css + skins/sexy.css		2.1.0		http://plugins.jquery.com/project/SexyCombo
+jquery.ui.multiselect.js	ui.multiselect.js					0.3			http://www.quasipartikel.at/multiselect/
+jquery.scrollTo.js			jquery.scrollTo-min.js				1.4.1		http://flesler.blogspot.com/2007/10/jqueryscrollto.html
+jquery.superfish.menu		superfish.js						1.4.8
+jquery.supersubs.js			supersubs.js						v0.2b
+jquery.alphanumeric.js		jquery.alphanumeric.js							http://www.itgroup.com.ph/alphanumeric/
+jquery.jgrowl.js			jquery.jgrowl_minimized.js			1.2.4		http://stanlemon.net/projects/jgrowl.html
+jquery.jqGrid.RESCRIPTED.js	jquery.jqGrid.js 3.5				3.5			Recompiled to adhere to Accel Aero Standards

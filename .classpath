@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="CELLO/platform/src/main/java"/>
+	<classpathentry excluding="src/main/java/" kind="src" path="CELLO/web-admin"/>
+	<classpathentry kind="src" path="CELLO/core/src/main/java"/>
+	<classpathentry kind="src" path="CELLO/auth/src/main/java"/>
+	<classpathentry kind="src" path="CELLO/web-admin/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/hasankachandrasekara/.m2/repository/org/apache/struts/struts2-convention-plugin/2.3.14.3/struts2-convention-plugin-2.3.14.3.jar"/>
+	<classpathentry kind="lib" path="/Users/hasankachandrasekara/.m2/repository/org/apache/struts/struts2-core/2.3.14.3/struts2-core-2.3.14.3.jar"/>
+	<classpathentry kind="lib" path="/Users/hasankachandrasekara/Documents/Project backup/20130615/CELLO/web-admin/target/web-admin/WEB-INF/lib/xwork-core-2.3.14.3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -9,7 +9,7 @@
 <meta http-equiv='cache-control' content='no-cache' />
 <meta http-equiv="expires" content="-1" />
 <title>CELLO</title>
-<link href="themes/max-aero.all.css" rel="stylesheet"
+<link href="themes/cello.all.css" rel="stylesheet"
 	type="text/css" />
 <!--conditional comments -->
 <!--[if IE]>  
@@ -115,11 +115,11 @@
 	<script type="text/javascript"
 		src="javascript/jquery/jquery.ui.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/isa.jquery.decorator.js"></script>
+		src="javascript/dglibs/isa.jquery.decorator.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/isa.browsers.js"></script>
+		src="javascript/dglibs/isa.browsers.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/dcs.statusbar.js"></script>
+		src="javascript/dglibs/dcs.statusbar.js"></script>
 	<script type="text/javascript"
 		src="javascript/jquery/hoverIntent.js"></script>
 	<script type="text/javascript"
@@ -127,10 +127,10 @@
 	<script type="text/javascript"
 		src="javascript/jquery/jquery.alerts.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/dcs.common.js"></script>
+		src="javascript/dglibs/dcs.common.js"></script>
 	<!-- shortcuts -->
 	<script type="text/javascript"
-		src="javascript/isalibs/dcs.shortcuts.js"></script>
+		src="javascript/dglibs/dcs.shortcuts.js"></script>
 	<!-- airline javascript logic  -->
 	<script type="text/javascript" src="private/dashboard/js/homepage.js"></script>
 </body>

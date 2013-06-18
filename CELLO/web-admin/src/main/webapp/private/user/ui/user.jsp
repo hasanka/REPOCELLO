@@ -17,7 +17,7 @@
 <title>MaxAero</title>
 <link rel='stylesheet' type='text/css'
 	href='themes/ui.jqgrid.css'>
-<link href="themes/max-aero.all.css" rel="stylesheet"
+<link href="themes/cello.all.css" rel="stylesheet"
 	type="text/css" />
 
 
@@ -175,21 +175,21 @@
 	<script type="text/javascript"
 		src="javascript/jquery/jquery.ui.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/isa.jquery.decorator.js"></script>
+		src="javascript/dglibs/isa.jquery.decorator.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/isa.browsers.js"></script>
+		src="javascript/dglibs/isa.browsers.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/dcs.statusbar.js"></script>
+		src="javascript/dglibs/dcs.statusbar.js"></script>
 	<script type="text/javascript"
 		src="javascript/jquery/jquery.alerts.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/dcs.common.js"></script>
+		src="javascript/dglibs/dcs.common.js"></script>
 	<script type="text/javascript"
 		src="javascript/jquery/i18n/grid.locale-en.js"></script>
 	<script type="text/javascript"
 		src="javascript/jquery/jquery.jqGrid.min.js"></script>
 	<script type="text/javascript"
-		src="javascript/isalibs/isa.jquery.validator.js"></script>
+		src="javascript/dglibs/isa.jquery.validator.js"></script>
 
 	<!-- page specific javascript logic  -->
 	<script type="text/javascript" src="private/user/js/user.js"></script> 
